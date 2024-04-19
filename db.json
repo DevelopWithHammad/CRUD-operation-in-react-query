@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "price": "$100",
+      "name": "Book shelf"
+    },
+    {
+      "id": "2",
+      "price": "$3100",
+      "name": "Charger"
+    },
+    {
+      "id": "3",
+      "price": "$500",
+      "name": "LED"
+    }
+  ],
+  "students": [
+    {
+      "id": "8131",
+      "name": "Shafiq Ur Rehman",
+      "fatherName": "Fazal Ur Rehman",
+      "course": "Amazon"
+    },
+    {
+      "id": "fe87",
+      "name": "Ali",
+      "fatherName": "Khan",
+      "course": "Digital Marketing"
+    },
+    {
+      "id": "50fa",
+      "name": "Wajid",
+      "fatherName": "Bhati",
+      "course": "Digital Marketing"
+    }
+  ],
+  "users": [
+    {
+      "id": "hammadquiz@gmail.com",
+      "channelId": "HammadDev"
+    }
+  ],
+  "channels": [
+    {
+      "id": "HammadDev",
+      "firstName": [
+        "javascript",
+        "React",
+        "Vue"
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": "1",
+      "label": "red"
+    },
+    {
+      "id": "2",
+      "label": "white"
+    },
+    {
+      "id": "3",
+      "label": "black"
+    },
+    {
+      "id": "4",
+      "label": "pink"
+    },
+    {
+      "id": "5",
+      "label": "blue"
+    },
+    {
+      "id": "6",
+      "label": "green"
+    },
+    {
+      "id": "7",
+      "label": "orange"
+    },
+    {
+      "id": "8",
+      "label": "yellow"
+    }
+  ]
+}

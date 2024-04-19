@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal {
+    animation: popup ease-in-out 0.2s;
+}
+
+@keyframes popup {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.loader {
+    width: 50px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    aspect-ratio: 1;
+    --_g: no-repeat radial-gradient(farthest-side, #000 94%, #0000);
+    background:
+      var(--_g) 0 0,
+      var(--_g) 100% 0,
+      var(--_g) 100% 100%,
+      var(--_g) 0 100%;
+    background-size: 40% 40%;
+    animation: l38 .5s infinite;
+  }
+
+  @keyframes l38 {
+    100% {
+      background-position: 100% 0, 100% 100%, 0 100%, 0 0
+    }
+  }
